@@ -1,0 +1,11 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/paper"
+    },
+    "overrides": [
+    {"predicate": {"custom_model_data":1}, "model": "custom/wand"},
+    {"predicate": {"custom_model_data":2}, "model": "custom/wand1"},
+    {"predicate": {"custom_model_data":2}, "model": "custom/wand3"}
+  ]
+}

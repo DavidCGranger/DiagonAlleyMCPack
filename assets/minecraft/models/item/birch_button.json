@@ -1,0 +1,31 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/messing",
+		"1": "block/black_concrete",
+		"2": "block/ollivanders schrift",
+		"3": "block/ollivanders schrift 2",
+		"particle": "block/messing"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 15, 8],
+			"faces": {
+				"north": {"uv": [0, 6.328, 16, 8.953], "rotation": 270, "texture": "#3"},
+				"east": {"uv": [0, 6.328, 16, 8.953], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [0, 6.328, 16, 8.953], "rotation": 270, "texture": "#3"},
+				"west": {"uv": [0, 6.328, 16, 8.953], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [5.672, 6.328, 10.625, 8.953], "rotation": 180, "texture": "#3"},
+				"down": {"uv": [0, 3.953, 16, 11.953], "texture": "#2"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "birch_button",
+			"origin": [8, 8, 8],
+			"children": [0]
+		}
+	]
+}

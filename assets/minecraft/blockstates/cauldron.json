@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "level=0": [ { "model": "block/cauldron/cauldron" }, { "model": "block/cauldron/cauldron6" }, { "model": "block/cauldron/cauldron7" }, { "model": "block/cauldron/cauldron5" }, { "model": "block/cauldron/cauldron4" }, { "model": "block/cauldron/cauldron0" }, { "model": "block/cauldron/cauldron1" }, { "model": "block/cauldron/cauldron2" }, { "model": "block/cauldron/cauldron3" } ],
+        "level=1": [ { "model": "block/cauldron/cauldron_level1" },{ "model": "block/cauldron/cauldron_level0" },{ "model": "block/cauldron/cauldron_level11" },{ "model": "block/cauldron/cauldron_level2" },{ "model": "block/cauldron/cauldron_level3" }],
+        "level=2": [ { "model": "block/cauldron/cauldron_level2" }, { "model": "block/cauldron/cauldron_level21" }, { "model": "block/cauldron/cauldron_level23" }, { "model": "block/cauldron/cauldron_level0" } ],
+        "level=3": [ { "model": "block/cauldron/cauldron_level3" }, { "model": "block/cauldron/cauldron_level30" }, { "model": "block/cauldron/cauldron_level31" }, { "model": "block/cauldron/cauldron_level32" }, { "model": "block/cauldron/cauldron_level33" } ]
+    }
+}

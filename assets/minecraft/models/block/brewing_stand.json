@@ -1,0 +1,207 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "cauldron_inner3": "minecraft:block/cauldron_inner3"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 6, 0, 6 ], 
+            "to": [ 10, 1, 10 ], 
+            "faces": {
+                "north": { "texture": "#cauldron_inner3", "uv": [ 7, 6, 11, 7 ] },
+                "east": { "texture": "#cauldron_inner3", "uv": [ 9, 7, 13, 8 ] },
+                "south": { "texture": "#cauldron_inner3", "uv": [ 5, 5, 9, 6 ] },
+                "west": { "texture": "#cauldron_inner3", "uv": [ 10, 6, 14, 7 ] },
+                "up": { "texture": "#cauldron_inner3", "uv": [ 7, 7, 11, 11 ] },
+                "down": { "texture": "#cauldron_inner3", "uv": [ 8, 7, 12, 11 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 7.5, 4, 7.5 ], 
+            "to": [ 8.5, 12, 8.5 ], 
+            "faces": {
+                "north": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 1, 8 ] },
+                "east": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 1, 8 ] },
+                "south": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 1, 8 ] },
+                "west": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 1, 8 ] },
+                "up": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 1, 1 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 3.3, 9, 7.5 ], 
+            "to": [ 8.55, 10, 8.5 ], 
+            "faces": {
+                "north": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 5.25, 1 ] },
+                "south": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 5.25, 1 ] },
+                "west": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 1, 1 ] },
+                "up": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 5.25, 1 ] },
+                "down": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 5.25, 1 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 7.9, 9, 7.5 ], 
+            "to": [ 12.9, 10, 8.5 ], 
+            "faces": {
+                "north": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 5, 1 ] },
+                "east": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 1, 1 ] },
+                "south": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 5, 1 ] },
+                "up": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 5, 1 ] },
+                "down": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 5, 1 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 2, 5.2, 6.5 ], 
+            "to": [ 5, 5.3, 9.5 ], 
+            "faces": {
+                "north": { "texture": "#cauldron_inner3", "uv": [ 6, 7, 9, 7.1 ] },
+                "east": { "texture": "#cauldron_inner3", "uv": [ 6, 5, 9, 5.1 ] },
+                "south": { "texture": "#cauldron_inner3", "uv": [ 5, 6, 8, 6.1 ] },
+                "west": { "texture": "#cauldron_inner3", "uv": [ 6, 7, 9, 7.1 ] },
+                "up": { "texture": "#cauldron_inner3", "uv": [ 8, 7, 11, 10 ] },
+                "down": { "texture": "#cauldron_inner3", "uv": [ 5, 9, 8, 12 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 12.5, 5, 7.85 ], 
+            "to": [ 12.75, 7.5, 8.1 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.25, 2.5 ] },
+                "east": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.25, 2.5 ] },
+                "south": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.25, 2.5 ] },
+                "west": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.25, 2.5 ] },
+                "up": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.25, 0.25 ] },
+                "down": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.25, 0.25 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 12.5, 5, 7.5 ], 
+            "to": [ 12.75, 7.5, 7.75 ], 
+            "rotation": { "origin": [ 8, 7, 8 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.25, 2.5 ] },
+                "east": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.25, 2.5 ] },
+                "south": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.25, 2.5 ] },
+                "west": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.25, 2.5 ] },
+                "up": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.25, 0.25 ] },
+                "down": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.25, 0.25 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 3.5, 5, 7.85 ], 
+            "to": [ 3.75, 7.5, 8.1 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.25, 2.5 ] },
+                "east": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.25, 2.5 ] },
+                "south": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.25, 2.5 ] },
+                "west": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.25, 2.5 ] },
+                "up": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.25, 0.25 ] },
+                "down": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.25, 0.25 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 3.5, 5, 7.5 ], 
+            "to": [ 3.75, 7.5, 7.75 ], 
+            "rotation": { "origin": [ 8, 7, 8 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.25, 2.5 ] },
+                "east": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.25, 2.5 ] },
+                "south": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.25, 2.5 ] },
+                "west": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.25, 2.5 ] },
+                "up": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.25, 0.25 ] },
+                "down": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.25, 0.25 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 11, 5.2, 6.5 ], 
+            "to": [ 14, 5.3, 9.5 ], 
+            "faces": {
+                "north": { "texture": "#cauldron_inner3", "uv": [ 6, 7, 9, 7.1 ] },
+                "east": { "texture": "#cauldron_inner3", "uv": [ 6, 5, 9, 5.1 ] },
+                "south": { "texture": "#cauldron_inner3", "uv": [ 5, 6, 8, 6.1 ] },
+                "west": { "texture": "#cauldron_inner3", "uv": [ 6, 7, 9, 7.1 ] },
+                "up": { "texture": "#cauldron_inner3", "uv": [ 8, 7, 11, 10 ] },
+                "down": { "texture": "#cauldron_inner3", "uv": [ 5, 9, 8, 12 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 3.36, 7, 7.75 ], 
+            "to": [ 3.86, 9, 8.25 ], 
+            "faces": {
+                "north": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.5, 2 ] },
+                "east": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.5, 2 ] },
+                "south": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.5, 2 ] },
+                "west": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.5, 2 ] },
+                "down": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.5, 0.5 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 12.36, 7, 7.75 ], 
+            "to": [ 12.86, 9, 8.25 ], 
+            "faces": {
+                "north": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.5, 2 ] },
+                "east": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.5, 2 ] },
+                "south": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.5, 2 ] },
+                "west": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.5, 2 ] },
+                "down": { "texture": "#cauldron_inner3", "uv": [ 0, 0, 0.5, 0.5 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 7, 0, 7 ], 
+            "to": [ 9, 4, 9 ], 
+            "faces": {
+                "north": { "texture": "#cauldron_inner3", "uv": [ 7, 6, 9, 10 ] },
+                "east": { "texture": "#cauldron_inner3", "uv": [ 9, 7, 11, 11 ] },
+                "south": { "texture": "#cauldron_inner3", "uv": [ 5, 5, 7, 9 ] },
+                "west": { "texture": "#cauldron_inner3", "uv": [ 10, 6, 12, 10 ] },
+                "up": { "texture": "#cauldron_inner3", "uv": [ 7, 7, 9, 9 ] }
+            }
+        }
+    ]
+}
