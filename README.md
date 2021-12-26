@@ -13,23 +13,14 @@ This is still in Beta, there might be some bugs, it would be good, if you say th
  
 
 damaged_anil=Wand-Shelf
-
 chipped_anvil=Empty-Wand-Shelf
-
 birch_button=Wand-Package
-
 jungle_button=placeable Ollivanders-Wand
-
 waped_button= Wand on a pillow
-
-paper with Custom Model Data 1=Elder Wand
-
+paper with Custom Model Data 1=Elder-Wand
 brewing_stand=Libra
-
 nether_brick_fence=Potage's Cauldron Shop Sign
-
 jungle_fence=Ollivander's Sign
-
 crimson_fence=Leaky Cauldron Sign
 
  
